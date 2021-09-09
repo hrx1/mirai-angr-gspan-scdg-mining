@@ -1,0 +1,43 @@
+\documentclass[times, utf8, numeric]{fer}
+\usepackage{booktabs}
+\usepackage{listings}
+% \usepackage{algorithmic}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{booktabs}
+\usepackage{pdfpages}
+
+\begin{document}
+
+
+\lstset{
+    language=C,
+    tabsize=2, 
+    basicstyle=\scriptsize,
+    showstringspaces=false,
+    frame = single,
+    aboveskip=2em,
+    belowskip=2em,
+    numbers=left,
+    xleftmargin=2em,
+    breaklines=true,
+    captionpos=b
+}
+\renewcommand{\lstlistingname}{Programski kod}
+
+\def\inlinecode{\lstinline[basicstyle=\footnotesize]}
+
+\setcounter{chapter}{-1}
+\chapter{Kako čitati ovaj rad?}
+
+Za stjecanje dojma o samoj metodi preskočite uvod, pročitajte potpoglavlja 1.1. i 1.2. -- bez potpotpoglavlja 1.2.1 i 1.2.2, samo 1.2.3. Za bolji uvid pročitati sva potpotpoglavlja od 1.2. Za najbolji uvid pogledati i opis programskog ostvarenja (poglavlje 1.3.). 
+
+Za dodatna pitanja javite mi se na bilo koji servis na kojem me pronađete (github, mail, linkedin, facebook, ...). 
+
+
+\include{prakticni_rad}
+
+\bibliography{literatura}
+\bibliographystyle{fer}
+
+
+\end{document}
